@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03e7ca14290a6f49b0fbafec7a1b626, type: 3}
+  m_Name: IGoUp
+  m_EditorClassIdentifier: Assembly-CSharp::GameEvent
+  actions:
+  - type: 0
+    dialogueData: {fileID: 11400000, guid: a9ae074147cdaf049bbf07a451438a80, type: 2}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 2
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: UpWall
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 2
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: WrongWayUp
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}

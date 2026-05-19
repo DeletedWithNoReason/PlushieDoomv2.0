@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3fc8aa45803d6428a4e8a3a00a47e7, type: 3}
+  m_Name: FuckYouDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  startLeft: {fileID: -4836102581344303206, guid: 2b42b39b5b49af24bbf84abd2722179e, type: 3}
+  startRight: {fileID: 0}
+  lines:
+  - characterName: 
+    text: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    isLeftCharacter: 0
+    leftSprite: {fileID: 0}
+    rightSprite: {fileID: 0}
+    customSpeed: 0
+    muteSound: 0
