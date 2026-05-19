@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public static class AutoStartScene
 {
 
-    private const string StartupScene = "Assets/Scenes/MainMenu.unity";
+    private const string StartupScene = "Assets/Scenes/Locations/Bootstrap.unity";
 
 
     private const string PreviousSceneKey = "PreviousScene";
