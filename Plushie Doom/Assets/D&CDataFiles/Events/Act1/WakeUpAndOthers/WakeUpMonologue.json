@@ -1,0 +1,116 @@
+{
+  "s_l": "Player/FacePalm",
+  "s_r": "Empty",
+  "lines": [
+    {
+      "c_n": "Метью",
+      "txt": "Ааа… голова розколюється… де я?",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/FacePalm",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Блін, як я тут опинився? Я сплю? Я реально тут?",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/Confused",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Я…",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Empty",
+      "spd": 0.06,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Блядь! Я навіть не пам’ятаю, як мене звати!",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/AngryTalk",
+      "r_s": "Empty",
+      "spd": 0.03,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Добре, похуй. Назву себе Метью. Окей Мет думай, думай. Що я пам'ятаю?",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/FacePalm",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Друг… я ж шукав його. Що ми взагалі робили?",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/Neutral",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Що за?",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/NervivousTalking",
+      "r_s": "Empty",
+      "spd": 0.03,
+      "m_s": false
+    },
+        {
+      "c_n": "Метью",
+      "txt": "ДЕ МОЯ МОБІЛА?!",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/AngryTalk",
+      "r_s": "Empty",
+      "spd": 0.03,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Спокійно. Може, мене вирубили і обікрали. Треба знайти дорогу до міста. Будь-куди, де є люди.",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/AngryTalk",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Тільки щось мені не подобається це місце... Тут ні реальної трави, ні дерев, взагалі нічого!",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Empty",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Сподіваюсь, це просто якісь декорації…",
+      "l_c": "#E0E0E0",
+      "is_l": true,
+      "l_s": "Player/Neutral",
+      "r_s": "Empty",
+      "spd": 0.06,
+      "m_s": false
+    }
+  ]
+}
