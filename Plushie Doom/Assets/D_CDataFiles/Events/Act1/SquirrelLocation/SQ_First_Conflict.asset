@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a03e7ca14290a6f49b0fbafec7a1b626, type: 3}
-  m_Name: WakingUpEvent
+  m_Name: SQ_First_Conflict
   m_EditorClassIdentifier: Assembly-CSharp::GameEvent
   actions:
   - type: 7
@@ -26,25 +26,25 @@ MonoBehaviour:
     targetSpawnerId: 
     abruptStart: 0
     abruptEnd: 0
-    audioToPlay: {fileID: 8300000, guid: c4d08b5d15620ff4aab257767f1ba611, type: 3}
-  - type: 3
-    dialogueData: {fileID: 0}
+    audioToPlay: {fileID: 8300000, guid: eeaa69668ff82c64da82a86df08267ce, type: 3}
+  - type: 0
+    dialogueData: {fileID: 11400000, guid: 979baba34bbae6e419c56891daaac960, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 
     toggleState: 0
     npcName: 
     startFollowing: 0
-    waitTime: 2
+    waitTime: 0
     sceneName: 
     targetSpawnerId: 
     abruptStart: 0
     abruptEnd: 0
     audioToPlay: {fileID: 0}
-  - type: 0
-    dialogueData: {fileID: 11400000, guid: fff145aeb6043e34bb99369442a39b55, type: 2}
+  - type: 5
+    dialogueData: {fileID: 0}
     cutsceneData: {fileID: 0}
-    choiceData: {fileID: 0}
+    choiceData: {fileID: 11400000, guid: 43029ad88142254449eecce3dbb86aef, type: 2}
     targetObjectName: 
     toggleState: 0
     npcName: 

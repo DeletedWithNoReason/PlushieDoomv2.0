@@ -13,8 +13,36 @@ MonoBehaviour:
   m_Name: FuckYou
   m_EditorClassIdentifier: Assembly-CSharp::GameEvent
   actions:
+  - type: 7
+    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 8300000, guid: 3bacb7ca7e800aa458e525466f95b94f, type: 3}
   - type: 0
-    dialogueData: {fileID: 0}
+    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 2
+    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 
@@ -28,13 +56,13 @@ MonoBehaviour:
     abruptEnd: 0
     audioToPlay: {fileID: 0}
   - type: 6
-    dialogueData: {fileID: 0}
+    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 
     toggleState: 0
-    npcName: 
-    startFollowing: 0
+    npcName: SQ
+    startFollowing: 1
     waitTime: 0
     sceneName: 
     targetSpawnerId: 

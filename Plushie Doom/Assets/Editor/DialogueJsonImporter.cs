@@ -51,7 +51,7 @@ public class DialogueJsonImporter : EditorWindow
 
         // Зберігаємо ассет
         string fileName = Path.GetFileNameWithoutExtension(path);
-        AssetDatabase.CreateAsset(asset, $"Assets/{fileName}_Data.asset");
+        AssetDatabase.CreateAsset(asset, $"Assets/D_CDataFiles/Events/Act1/{fileName}_Data.asset");
         AssetDatabase.SaveAssets();
         
         EditorUtility.FocusProjectWindow();

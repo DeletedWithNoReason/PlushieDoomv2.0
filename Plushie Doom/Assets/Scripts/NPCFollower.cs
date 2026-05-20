@@ -32,10 +32,8 @@ public class NPCFollower : MonoBehaviour
         Movement playerMovement = FindFirstObjectByType<Movement>();
         if (playerMovement != null) player = playerMovement.transform;
 
-        // Додамо дебаг, щоб побачити що відбувається в консолі
         if (EventManager.IsFollowingActive)
         {
-            // Очищуємо ім'я від (Clone) для порівняння, якщо потрібно
             string cleanName = gameObject.name.Replace("(Clone)", "").Trim();
             
             if (cleanName == EventManager.ActiveFollowerPrefabName)
@@ -44,6 +42,12 @@ public class NPCFollower : MonoBehaviour
                 SetFollowing(true);
                 Debug.Log($"[NPC] {gameObject.name} успішно почав слідування.");
             }
+        }
+        else
+        {
+            // Якщо NPC спавниться і НЕ слідує за гравцем — примусово дивиться вниз
+            lastLookDirection = new Vector2(0, -1);
+            UpdateAnimations(0f);
         }
     }
 
@@ -68,11 +72,7 @@ public class NPCFollower : MonoBehaviour
 
         if (distance > startDistance)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.linearVelocity = direction * speed;
-
-            lastLookDirection = direction;
-            UpdateAnimations(direction.sqrMagnitude);
+            MoveTowardsPlayer();
         }
         else if (distance <= stopDistance)
         {
@@ -80,11 +80,10 @@ public class NPCFollower : MonoBehaviour
         }
         else 
         {
+            // Якщо він знаходиться між startDistance та stopDistance
             if (rb.linearVelocity.sqrMagnitude > 0.01f)
             {
-                Vector2 direction = (player.position - transform.position).normalized;
-                rb.linearVelocity = direction * speed;
-                UpdateAnimations(direction.sqrMagnitude);
+                MoveTowardsPlayer();
             }
             else
             {
@@ -93,7 +92,27 @@ public class NPCFollower : MonoBehaviour
         }
     }
 
-    // Використовуємо LateUpdate для коректного сортування після завершення руху
+    private void MoveTowardsPlayer()
+    {
+        // Сирий діагональний вектор для фізичного руху (щоб не застрягав на кутах)
+        Vector2 rawDirection = (player.position - transform.position).normalized;
+        rb.linearVelocity = rawDirection * speed;
+
+        // Визначаємо домінуючу вісь для АНІМАЦІЇ (тільки 4 напрямки)
+        Vector2 animDirection = Vector2.zero;
+        if (Mathf.Abs(rawDirection.x) > Mathf.Abs(rawDirection.y))
+        {
+            animDirection.x = Mathf.Sign(rawDirection.x); // 1 або -1 по X
+        }
+        else
+        {
+            animDirection.y = Mathf.Sign(rawDirection.y); // 1 або -1 по Y
+        }
+
+        lastLookDirection = animDirection;
+        UpdateAnimations(rb.linearVelocity.sqrMagnitude);
+    }
+
     void LateUpdate()
     {
         if (player != null)
@@ -104,12 +123,10 @@ public class NPCFollower : MonoBehaviour
 
     private void UpdateSortingOrder()
     {
-        // Якщо NPC нижче гравця (Y менше), він має бути попереду (Layer 4)
         if (transform.position.y < player.position.y)
         {
             spriteRenderer.sortingOrder = orderInFront;
         }
-        // Якщо NPC вище гравця (Y більше), він має бути позаду (Layer 2)
         else
         {
             spriteRenderer.sortingOrder = orderBehind;

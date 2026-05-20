@@ -10,13 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a03e7ca14290a6f49b0fbafec7a1b626, type: 3}
-  m_Name: SQ_First_Conflict
+  m_Name: UnknownDirectionEvent
   m_EditorClassIdentifier: Assembly-CSharp::GameEvent
   actions:
   - type: 0
-    dialogueData: {fileID: 11400000, guid: 979baba34bbae6e419c56891daaac960, type: 2}
+    dialogueData: {fileID: 11400000, guid: 12735b7ade740f14d8d55fccc1074c02, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 5
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 11400000, guid: f7c797c46f641ff4dae0905b68586109, type: 2}
     targetObjectName: 
     toggleState: 0
     npcName: 

@@ -1,0 +1,106 @@
+{
+  "s_l": "Player/AngryTalk",
+  "s_r": "Squirell/Neutral",
+  "lines": [
+    {
+      "c_n": "Метью",
+      "txt": "ЧОМУ Я МАЮ ПОВЕРТАТИСЯ НАЗАД?!",
+      "l_c": "#9E4539",
+      "is_l": true,
+      "l_s": "Player/AngryTalk",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.03,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "…",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/Confused",
+      "r_s": "Squirell/SQ_Sad",
+      "spd": 0.05,
+      "m_s": true
+    },
+    {
+      "c_n": "Метью",
+      "txt": "…еее вибач, що накричав. Але ти не хотіла мене послухати!",
+      "l_c": "#9E4539",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_Sad",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "…",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_Sad",
+      "spd": 0.05,
+      "m_s": true
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Чому тебе так тягне сюди?",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_SadTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Ну… по-перше, я можу не зустріти ще когось. А по-друге, я нікуди не піду, поки хтось мені не пояснить, де я блін знаходжусь!",
+      "l_c": "#9E4539",
+      "is_l": true,
+      "l_s": "Player/NeutralTalk",
+      "r_s": "Squirell/SQ_Sad",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Так як тут все виглядає не живим, то це мене насторожує. І ти схоже не особливо переймаєшся тим, що ти мабуть вперше бачиш мене.",
+      "l_c": "#9E4539",
+      "is_l": true,
+      "l_s": "Player/NervivousFinger",
+      "r_s": "Squirell/SQ_Sad",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "…",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": true
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Схоже, ти ще не зрозумів, що відбувається… Ти не з тих, ким легко маніпулювати. Можливо, для тебе це шанс...",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Гаразд, ходімо до мого будинку, я тобі все розкажу, він як раз по дорозі, куди ти прямував.",
+      "l_c": "#BA5E31",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    }
+  ]
+}
