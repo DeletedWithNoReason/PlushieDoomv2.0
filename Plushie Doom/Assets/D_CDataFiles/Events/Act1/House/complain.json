@@ -1,0 +1,76 @@
+{
+  "s_l": "Player/Neutral",
+  "s_r": "Squirell/SQ_Neutral",
+  "lines": [
+    {
+      "c_n": "Метью",
+      "txt": "А куди веде ця драбина? Там нагорі ще одна кімната?",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NeutralTalk",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Гей! Ану назад! Тобі туди не можна, навіть не думай підніматися.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Та я просто... хотів подивитися.",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_Angry",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Я серйозно кажу, я тебе реально туди не пропущу. Це моє приватне горище.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Там мої запаси на зиму, старі гудзики та речі, які тебе не стосуються. Ти все-таки не в себе вдома, Метью.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_NeutralTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Навіть у такому місці, як це, треба поважати чужий простір. Сиди тут і не пхай носа куди не просять.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.06,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Гаразд, гаразд, я зрозумів. Просто... тут все таке дивне, важко втриматися від того, щоб не дослідити кожен куток.",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    }
+  ]
+}

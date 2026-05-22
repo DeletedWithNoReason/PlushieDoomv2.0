@@ -86,7 +86,7 @@ public static EventManager Instance;
         RunEvent(gameEvent);
     }
 
-    private IEnumerator ExecuteSequence(GameEvent gameEvent)
+private IEnumerator ExecuteSequence(GameEvent gameEvent)
     {
         IsEventRunning = true;
         foreach (var action in gameEvent.actions)
@@ -96,6 +96,19 @@ public static EventManager Instance;
                 case EventAction.ActionType.Dialogue:
                     DialogueManager.Instance?.StartDialogue(action.dialogueData, action.abruptStart, action.abruptEnd);
                     while (DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueBusy()) yield return null;
+                    break;
+
+                case EventAction.ActionType.Cutscene:
+                    if (CutsceneManager.Instance != null)
+                    {
+                        CutsceneManager.Instance.StartCutscene(action.cutsceneData, action.abruptStart, action.abruptEnd);
+                        // Очікуємо, поки катсцена завершиться
+                        while (CutsceneManager.Instance.IsBusy()) yield return null;
+                    }
+                    else
+                    {
+                        Debug.LogError("[EventManager] CutsceneManager.Instance не знайдено!");
+                    }
                     break;
 
                 case EventAction.ActionType.CharFollow:
@@ -136,6 +149,17 @@ public static EventManager Instance;
                     ChoiceManager.Instance?.ShowChoices(action.choiceData);
                     // Очікуємо, поки ChoiceManager не вибере варіант (який викличе ForceRunEvent)
                     while (ChoiceManager.Instance != null && ChoiceManager.Instance.IsBusy()) yield return null;
+                    break;
+
+                // --- НОВИЙ КЕЙС ДЛЯ ВИХОДУ З ГРИ ---
+                case EventAction.ActionType.QuitGame:
+                    Debug.Log("<color=red>[EventManager]</color> Команда QuitGame: гра завершується!");
+                    
+                    #if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+                    #else
+                    Application.Quit();
+                    #endif
                     break;
             }
         }

@@ -26,6 +26,34 @@ MonoBehaviour:
     targetSpawnerId: 
     abruptStart: 0
     abruptEnd: 0
+    audioToPlay: {fileID: 8300000, guid: eed80a0b8af21a44c9178ffc9bb28864, type: 3}
+  - type: 1
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 11400000, guid: 6df7d33d651495f46b4c33ad6608612b, type: 2}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 2
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 7
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
     audioToPlay: {fileID: 8300000, guid: 3bacb7ca7e800aa458e525466f95b94f, type: 3}
   - type: 3
     dialogueData: {fileID: 0}

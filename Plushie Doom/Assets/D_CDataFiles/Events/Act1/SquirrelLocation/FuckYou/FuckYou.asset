@@ -14,7 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameEvent
   actions:
   - type: 7
-    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 0
+    dialogueData: {fileID: 11400000, guid: da619e96fe11095448996f803f82ee8b, type: 2}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 7
+    dialogueData: {fileID: 0}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 
@@ -41,22 +69,8 @@ MonoBehaviour:
     abruptStart: 0
     abruptEnd: 0
     audioToPlay: {fileID: 0}
-  - type: 2
-    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
-    cutsceneData: {fileID: 0}
-    choiceData: {fileID: 0}
-    targetObjectName: 
-    toggleState: 0
-    npcName: 
-    startFollowing: 0
-    waitTime: 0
-    sceneName: 
-    targetSpawnerId: 
-    abruptStart: 0
-    abruptEnd: 0
-    audioToPlay: {fileID: 0}
   - type: 6
-    dialogueData: {fileID: 11400000, guid: 287ea7d7ae3a6fc4ebb4646ff8a21947, type: 2}
+    dialogueData: {fileID: 0}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameEvent
   actions:
   - type: 0
-    dialogueData: {fileID: 0}
+    dialogueData: {fileID: 11400000, guid: efe19e87dbc74c94bb373aa742ea1405, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 
@@ -31,8 +31,8 @@ MonoBehaviour:
     dialogueData: {fileID: 0}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
-    targetObjectName: 
-    toggleState: 0
+    targetObjectName: SQConf2
+    toggleState: 1
     npcName: 
     startFollowing: 0
     waitTime: 0

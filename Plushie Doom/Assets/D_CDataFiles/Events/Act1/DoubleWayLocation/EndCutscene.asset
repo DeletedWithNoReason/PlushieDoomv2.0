@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348141b977a04964097994fccfd81ca6, type: 3}
+  m_Name: EndCutscene
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  steps:
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -3978941984172184508, guid: 1981df405f455f443ae82df24c5fa7bb, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0

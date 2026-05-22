@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03e7ca14290a6f49b0fbafec7a1b626, type: 3}
+  m_Name: GettingUpEvent
+  m_EditorClassIdentifier: Assembly-CSharp::GameEvent
+  actions:
+  - type: 7
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 8300000, guid: eed80a0b8af21a44c9178ffc9bb28864, type: 3}
+  - type: 1
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 11400000, guid: 6df7d33d651495f46b4c33ad6608612b, type: 2}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 3
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 2
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}
+  - type: 7
+    dialogueData: {fileID: 0}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 8300000, guid: 3bacb7ca7e800aa458e525466f95b94f, type: 3}
+  - type: 0
+    dialogueData: {fileID: 11400000, guid: fbb3ef4962cdcd743ac6f47c292061c8, type: 2}
+    cutsceneData: {fileID: 0}
+    choiceData: {fileID: 0}
+    targetObjectName: 
+    toggleState: 0
+    npcName: 
+    startFollowing: 0
+    waitTime: 0
+    sceneName: 
+    targetSpawnerId: 
+    abruptStart: 0
+    abruptEnd: 0
+    audioToPlay: {fileID: 0}

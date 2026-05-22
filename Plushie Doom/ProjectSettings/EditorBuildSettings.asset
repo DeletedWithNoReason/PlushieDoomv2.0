@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Locations/Bootstrap.unity
     guid: 3a2c368c6bf083e40b1822ab5237de3a
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 29794e562699ae84383280492ca2d1ed
+  - enabled: 1
     path: Assets/Scenes/Locations/WakeUpLocation.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -23,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Locations/House.unity
     guid: 384710bbd6c1eaa4aa929486e58cfe4c
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 29794e562699ae84383280492ca2d1ed
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,55 +1,69 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class StatePersister : MonoBehaviour
 {
     public string uniqueId;
+    public bool triggerOnce = true; 
+    
+    private bool _isInitialized = false;
     private static bool isAppQuitting = false;
 
-    private void Start()
+    private void Awake()
     {
-        Restore();
+        // Якщо об'єкт увімкнений за замовчуванням, Awake спрацює першим
+        RestoreFromManager();
     }
 
-    private void Restore()
+    // Тепер цей метод викликає SceneStateManager для ВСІХ об'єктів
+    public void RestoreFromManager()
     {
+        // Захист від подвійного виконання (якщо Awake вже відпрацював)
+        if (_isInitialized) return; 
+        
         if (string.IsNullOrEmpty(uniqueId) || SceneStateManager.Instance == null) return;
 
         if (SceneStateManager.Instance.TryGetObjectState(uniqueId, out bool savedState))
         {
-            // Вимикаємо/вмикаємо ТІЛЬКИ якщо стан відрізняється від початкового
-            if (gameObject.activeSelf != savedState)
-            {
-                gameObject.SetActive(savedState);
-            }
+            // Вмикаємо або вимикаємо об'єкт згідно з базою
+            gameObject.SetActive(savedState);
         }
+        
+        // Фіксуємо, що об'єкт успішно налаштовано
+        _isInitialized = true;
     }
 
-    private void OnDisable()
+    public void OnPlayerInteract()
     {
-        // Якщо ми виходимо з гри або сцена якраз вивантажується — НЕ зберігаємо нічого
-        if (isAppQuitting || !gameObject.scene.isLoaded) return;
-
-        if (SceneStateManager.Instance != null && !string.IsNullOrEmpty(uniqueId))
+        if (triggerOnce)
         {
-            // Зберігаємо стан об'єкта як "вимкнений"
-            SceneStateManager.Instance.SaveObjectState(uniqueId, false);
+            SaveState(false);
+            gameObject.SetActive(false);
         }
     }
 
     private void OnEnable()
     {
-        if (isAppQuitting || SceneStateManager.Instance == null || string.IsNullOrEmpty(uniqueId)) return;
-        
-        // Зберігаємо стан як "увімкнений" тільки якщо сцена повністю активна
-        if (gameObject.scene.isLoaded)
+        if (isAppQuitting || !_isInitialized || SceneStateManager.Instance == null) return;
+        SaveState(true);
+    }
+
+    private void OnDestroy()
+    {
+        if (isAppQuitting || SceneStateManager.Instance == null) return;
+
+        if (triggerOnce && !gameObject.activeSelf)
         {
-            SceneStateManager.Instance.SaveObjectState(uniqueId, true);
+            SaveState(false);
         }
     }
 
-    private void OnApplicationQuit()
+    private void SaveState(bool state)
     {
-        isAppQuitting = true;
+        if (!string.IsNullOrEmpty(uniqueId))
+        {
+            SceneStateManager.Instance.SaveObjectState(uniqueId, state);
+        }
     }
+
+    private void OnApplicationQuit() => isAppQuitting = true;
 }

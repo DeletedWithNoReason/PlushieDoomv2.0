@@ -4,19 +4,20 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
     [Header("Scene Settings")]
-    public string bootstrapSceneName = "Bootstrap";
+    [Tooltip("Індекс першої ігрової локації у Build Settings")]
+    public int firstLevelIndex = 2;
 
     void Start()
     {
-        // Якщо хочеш запустити музику просто кодом
         AudioSource menuMusic = GetComponent<AudioSource>();
         if (menuMusic != null) menuMusic.Play();
     }
+
     public void StartNewGame()
     {
-        Debug.Log($"[MainMenu] Завантаження сцени ініціалізації: {bootstrapSceneName}");
+        Debug.Log($"[MainMenu] Завантаження ігрової локації (Index: {firstLevelIndex})");
         
-        SceneManager.LoadScene(bootstrapSceneName);
+        SceneManager.LoadScene(firstLevelIndex);
     }
 
     public void QuitGame()

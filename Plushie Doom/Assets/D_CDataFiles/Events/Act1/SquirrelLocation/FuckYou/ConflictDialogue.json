@@ -1,0 +1,106 @@
+{
+    "s_l": "Player/Confused",
+    "s_r": "Squirell/SQ_Angry_talk",
+    "lines": [
+        {
+            "c_n": "Білка",
+            "txt": "ГЕЙ! Тобі сюди не можна!",
+            "l_c": "#BA5E3100",
+            "is_l": false,
+            "l_s": "Player/Confused",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Метью",
+            "txt": "Воу воу тихо! Я тут вперше!",
+            "l_c": "#9E453900",
+            "is_l": true,
+            "l_s": "Player/NervivousTalking",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Метью",
+            "txt": "(Блять говоряча білка? Що за нах?!)",
+            "l_c": "#9E453900",
+            "is_l": true,
+            "l_s": "Player/NervivousFinger",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Білка",
+            "txt": "Розвертайся! Тобі не в цю сторону!",
+            "l_c": "#BA5E3100",
+            "is_l": false,
+            "l_s": "Player/NervivousFinger",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Метью",
+            "txt": "Заспокійся!",
+            "l_c": "#9E453900",
+            "is_l": true,
+            "l_s": "Player/ArgryTalk",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Метью",
+            "txt": "Послухай, мені потрібно добратися до міста, я не знаю як я тут опинився і не хочу створювати проблем.",
+            "l_c": "#9E453900",
+            "is_l": true,
+            "l_s": "Player/NeutralTalk",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Метью",
+            "txt": "Допоможи мені вибратися звідси!",
+            "l_c": "#9E453900",
+            "is_l": true,
+            "l_s": "Player/NeutralTalk",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Білка",
+            "txt": "Хочеш допомоги? То тоді розвернися на 180 і вперед!",
+            "l_c": "#BA5E3100",
+            "is_l": false,
+            "l_s": "Player/NeutralTalk",
+            "r_s": "Squirell/SQ_Angry",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Білка",
+            "txt": "Тільки знай, куди б ти не йшов.",
+            "l_c": "#BA5E3100",
+            "is_l": false,
+            "l_s": "Player/Confused",
+            "r_s": "Squirell/SQ_Angry_talk",
+            "spd": 0.05,
+            "m_s": false
+        },
+        {
+            "c_n": "Білка",
+            "txt": "Ти нікуди не дійдеш...",
+            "l_c": "#BA5E3100",
+            "is_l": false,
+            "l_s": "Player/Confused",
+            "r_s": "Squirell/SQ_Angry",
+            "spd": 0.3,
+            "m_s": false
+        }
+    ]
+}

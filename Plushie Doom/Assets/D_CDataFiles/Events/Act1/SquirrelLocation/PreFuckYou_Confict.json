@@ -1,0 +1,56 @@
+{
+  "s_l": "Player/Suspicious",
+  "s_r": "Squirell/SQ_Neutral",
+  "lines": [
+    {
+      "c_n": "Метью",
+      "txt": "(Ага, значить оно воно як...)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/Angry",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "(Це створіння думає, що може вказувати мені?)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/Suspicious",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "(Не те щоб я був впевнений, на що вона здатна... Але я не збираюсь відступати.)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/Suspicious",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Скажи мені одну річ...",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/ArgryTalk",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.04,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "???",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/ArgryTalk",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.06,
+      "m_s": false
+    }
+  ]
+}

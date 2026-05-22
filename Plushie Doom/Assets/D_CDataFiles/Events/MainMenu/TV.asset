@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348141b977a04964097994fccfd81ca6, type: 3}
+  m_Name: TV
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  steps:
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 5088316998373936774, guid: 8e53b8e7df6cd0643abf940051d4d0d4, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 9127740839983781060, guid: 04ce165af8a053744af9b57460bdcb59, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -5504576458625280002, guid: a53645d79571e5e4692ee5ac59d531a0, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -8423766877255053366, guid: 3818edbe2b8d1374e8bb228884917568, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 6706412810013678212, guid: 84e6e83fa3765804d8c41c2e41e37cc3, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -2124959350602555629, guid: 18da1a2285a46ca44acd55fca51610f0, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 9021168841548468757, guid: aaf5800485e7712499d7679f40a631b3, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -5560106809893553772, guid: dd34b3bf3a54b514583f233759a3552e, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 1168001392758842353, guid: 07db6fc5c4dd9aa4b94240f47815738d, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 6185969787022834437, guid: 68dd4ce099ee5804d9aa3be9bd23b031, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 727196407778942961, guid: b16c1c290c30e9d409c27ae7cfe8130f, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -1221274509268655727, guid: 372b90713e5871b49a71a81ca973b858, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: -2539738917510699577, guid: b19091fd98572de4b931f97f4230c077, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 4858552042285658036, guid: f81d30c2c7333744880b38341ecf8498, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 4349915267927364619, guid: fb8bd2d95956105469c7f6cb840d50fe, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0
+  - characterName: 
+    text: 
+    backgroundSprite: {fileID: 7680820834086852892, guid: 447436c155cb3e24c9e0317793a19060, type: 3}
+    typingSpeed: 0
+    stepSound: {fileID: 0}
+    muteSound: 0
+    muteTyping: 0
+    togglePanel: 0

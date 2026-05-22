@@ -1,0 +1,66 @@
+{
+  "s_l": "Player/Neutral",
+  "s_r": "Squirell/SQ_Argry",
+  "lines": [
+    {
+      "c_n": "Метью",
+      "txt": "(Схоже, сперечатися з нею зараз — це просто гаяти час.)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_Argry",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Гаразд, я піду. Не хочу створювати зайвих проблем ні тобі, ні собі.",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NeutralTalk",
+      "r_s": "Squirell/SQ_Argry",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Мудре рішення. Просто тримайся стежки, вона виведе тебе.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/Neutral",
+      "r_s": "Squirell/SQ_NeutralTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "О, я пішов.",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NeutralTalk",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },    
+    {
+      "c_n": "Метью",
+      "txt": "(Але серйозно... Що з нею не так? Вона поводиться так, наче знає про мене більше, ніж каже.)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/Confused",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "(Ця вся ситуація мені дуже не подобається.)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NeutralSuspicious",
+      "r_s": "Squirell/SQ_Neutral",
+      "spd": 0.05,
+      "m_s": false
+    }
+  ]
+}

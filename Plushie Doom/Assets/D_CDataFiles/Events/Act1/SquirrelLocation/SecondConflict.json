@@ -1,0 +1,76 @@
+{
+  "s_l": "Player/Confused",
+  "s_r": "Squirell/SQ_AngryTalk",
+  "lines": [
+    {
+      "c_n": "Білка",
+      "txt": "Ти знову?! Я ж, здається, чітко сказала — розвертайся і йди геть!",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/Confused",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Послухай, я просто намагаюся зрозуміти, де я. Ти єдина, хто тут взагалі розмовляє!",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NervivousTalking",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Зробиш ще хоч крок у цю сторону — і пошкодуєш, що взагалі сьогодні прокинувся.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/NervivousTalking",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "(Вона або скажена, або за цією агресією ховається щось справді жахливе...)",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NervivousFinger",
+      "r_s": "Squirell/SQ_Angry",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Це мій ліс! І я не збираюся дивитися, як черговий дурень стає добривом для цих дерев через свою тупість.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/NervivousFinger",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Білка",
+      "txt": "Останнє попередження: зникни з моїх очей, поки ліс не вирішив, що ти — легка здобич.",
+      "l_c": "#BA5E31FF",
+      "is_l": false,
+      "l_s": "Player/NervivousFinger",
+      "r_s": "Squirell/SQ_AngryTalk",
+      "spd": 0.05,
+      "m_s": false
+    },
+    {
+      "c_n": "Метью",
+      "txt": "Добре, добре! Я зрозумів. Вже йду...",
+      "l_c": "#9E4539FF",
+      "is_l": true,
+      "l_s": "Player/NervivousLookingAway",
+      "r_s": "Squirell/SQ_Angry",
+      "spd": 0.06,
+      "m_s": false
+    }
+  ]
+}

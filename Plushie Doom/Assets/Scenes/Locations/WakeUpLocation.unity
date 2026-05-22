@@ -5006,7 +5006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfddf65ae07ba8f48a3387b6b0f7bb4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneEventTrigger
-  eventOnStart: {fileID: 11400000, guid: bd60ef1f90076a94baac470ee597532c, type: 2}
+  eventOnStart: {fileID: 11400000, guid: 37456dcc199185a428d9b4c6b45e9ec4, type: 2}
 --- !u!4 &849070789
 Transform:
   m_ObjectHideFlags: 0

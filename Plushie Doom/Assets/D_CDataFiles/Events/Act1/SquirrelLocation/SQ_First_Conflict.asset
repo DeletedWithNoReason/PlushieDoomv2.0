@@ -28,7 +28,7 @@ MonoBehaviour:
     abruptEnd: 0
     audioToPlay: {fileID: 8300000, guid: eeaa69668ff82c64da82a86df08267ce, type: 3}
   - type: 0
-    dialogueData: {fileID: 11400000, guid: 979baba34bbae6e419c56891daaac960, type: 2}
+    dialogueData: {fileID: 11400000, guid: e0c00286f15663049a65a4baa0bc245b, type: 2}
     cutsceneData: {fileID: 0}
     choiceData: {fileID: 0}
     targetObjectName: 

@@ -4,7 +4,7 @@ using UnityEngine;
 [System.Serializable]
 public struct EventAction
 {
-    public enum ActionType { Dialogue, Cutscene, ToggleObject, Wait, ChangeScene, ShowChoice, CharFollow, PlaySound }
+    public enum ActionType { Dialogue, Cutscene, ToggleObject, Wait, ChangeScene, ShowChoice, CharFollow, PlaySound, QuitGame }
 
     public ActionType type;
 

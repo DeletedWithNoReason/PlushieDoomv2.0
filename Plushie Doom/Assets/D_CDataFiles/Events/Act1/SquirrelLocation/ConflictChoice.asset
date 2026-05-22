@@ -16,3 +16,5 @@ MonoBehaviour:
   options:
   - optionText: "\u041D\u0430\u0434\u0430\u0432\u0438\u0442\u0438"
     resultingEvent: {fileID: 11400000, guid: 4107f8b42af9d1f4d94bfbfe79a39d42, type: 2}
+  - optionText: "\u0412\u0456\u0434\u0441\u0442\u0443\u043F\u0438\u0442\u0438"
+    resultingEvent: {fileID: 11400000, guid: 8077a147ee70d0745a9207f7453c334c, type: 2}
